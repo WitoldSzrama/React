@@ -19,8 +19,11 @@
                 age: 30
             }
 
-            handleClick(e){
+            handleClick = (e) => {
                 console.log(e.target); 
+                this.setState({
+                    name: 'Yoshi'
+                });
                 
             }
             handleMouseOver(e){
